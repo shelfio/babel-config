@@ -33,7 +33,10 @@
     ]
   },
   "prettier": "@shelf/prettier-config",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/preset-env": "7.12.13",
+    "@babel/preset-typescript": "7.12.13"
+  },
   "devDependencies": {
     "@shelf/eslint-config": "0.28.0",
     "@shelf/prettier-config": "1.0.0",
