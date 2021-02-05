@@ -1,20 +1,28 @@
-# xxxxxx [![CircleCI](https://circleci.com/gh/shelfio/xxxxxx/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/xxxxxx/tree/master)![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-
-> xxxxxx description
+# @shelf/babel-config
 
 ## Install
 
 ```
-$ yarn add @shelf/xxxxxx
+$ yarn add --dev @shelf/babel-config
 ```
 
 ## Usage
 
-```js
-const {getFoo} = require('@shelf/xxxxxx');
+In your `package.json`:
 
-getFoo();
+### Backend
+
+```json
+{
+  "babel": {
+    "extends": "@shelf/babel-config/backend"
+  }
+}
 ```
+
+### Frontend
+
+To be defined...
 
 ## Publish
 
