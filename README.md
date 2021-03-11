@@ -22,7 +22,35 @@ In your `package.json`:
 
 ### Frontend
 
-To be defined...
+React components without browser boilerplate (jsx,tsx) + testing (ts/tsx)
+
+```json
+{
+  "babel": {
+    "extends": "@shelf/babel-config/frontend"
+  }
+}
+```
+
+React components(jsx,tsx) + testing (ts/tsx)
+
+```json
+{
+  "babel": {
+    "extends": "@shelf/babel-config/frontend-component"
+  }
+}
+```
+
+Frontend library (lodash, ts)
+
+```json
+{
+  "babel": {
+    "extends": "@shelf/babel-config/frontend-library"
+  }
+}
+```
 
 ## Publish
 
