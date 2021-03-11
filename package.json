@@ -12,6 +12,8 @@
   "types": "lib/index.d.ts",
   "files": [
     "backend.js",
+    "frontend.js",
+    "frontend-library.js",
     "frontend-component.js"
   ],
   "scripts": {
