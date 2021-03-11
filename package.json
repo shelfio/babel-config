@@ -11,7 +11,8 @@
   "main": "lib",
   "types": "lib/index.d.ts",
   "files": [
-    "backend.js"
+    "backend.js",
+    "frontend-component.js"
   ],
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.json --fix"
