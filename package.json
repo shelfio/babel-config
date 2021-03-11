@@ -11,7 +11,10 @@
   "main": "lib",
   "types": "lib/index.d.ts",
   "files": [
-    "backend.js"
+    "backend.js",
+    "frontend.js",
+    "frontend-library.js",
+    "frontend-component.js"
   ],
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.json --fix"
@@ -34,8 +37,13 @@
   },
   "prettier": "@shelf/prettier-config",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/plugin-proposal-optional-chaining": "7.13.8",
+    "@babel/plugin-transform-runtime": "7.13.10",
     "@babel/preset-env": "7.13.9",
-    "@babel/preset-typescript": "7.13.0"
+    "@babel/preset-react": "7.12.13",
+    "@babel/preset-typescript": "7.13.0",
+    "babel-plugin-styled-components": "1.12.0"
   },
   "devDependencies": {
     "@shelf/eslint-config": "0.28.0",
