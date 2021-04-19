@@ -14,7 +14,8 @@
     "backend.js",
     "frontend.js",
     "frontend-library.js",
-    "frontend-component.js"
+    "frontend-component.js",
+    "frontend-next.js"
   ],
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.json --fix"
