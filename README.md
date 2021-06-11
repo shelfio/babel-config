@@ -52,6 +52,16 @@ Frontend library (lodash, ts)
 }
 ```
 
+Next.js standard configuration
+
+```json
+{
+  "babel": {
+    "extends": "@shelf/babel-config/frontend-next"
+  }
+}
+```
+
 ## Publish
 
 ```sh
