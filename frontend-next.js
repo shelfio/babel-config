@@ -7,6 +7,7 @@ module.exports = {
     'dynamic-import-node',
     ['babel-plugin-styled-components', {ssr: true, fileName: false, pure: true}],
     '@babel/plugin-proposal-optional-chaining',
+    'babel-plugin-dynamic-import-webpack',
   ],
   presets: ['next/babel'],
   env: {
