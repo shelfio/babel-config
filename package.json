@@ -43,7 +43,7 @@
     "babel-plugin-styled-components": "1.13.3"
   },
   "devDependencies": {
-    "@shelf/eslint-config": "2.5.2",
+    "@shelf/eslint-config": "2.6.0",
     "@shelf/prettier-config": "1.0.0",
     "eslint": "8.1.0",
     "husky": "7.0.4",
