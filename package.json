@@ -45,7 +45,7 @@
   "devDependencies": {
     "@shelf/eslint-config": "2.6.0",
     "@shelf/prettier-config": "1.0.0",
-    "eslint": "8.1.0",
+    "eslint": "8.6.0",
     "husky": "7.0.4",
     "lint-staged": "11.2.6",
     "prettier": "2.4.1",
