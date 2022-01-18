@@ -1,6 +1,6 @@
 {
   "name": "@shelf/babel-config",
-  "version": "0.1.6",
+  "version": "0.1.5",
   "description": "babel-config",
   "license": "MIT",
   "author": {
@@ -54,7 +54,6 @@
     "prettier": "2.4.1",
     "typescript": "4.5.4"
   },
-  "engines": {
   "engines": {
     "node": ">=12"
   },
