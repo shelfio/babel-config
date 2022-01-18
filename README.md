@@ -62,6 +62,16 @@ Next.js standard configuration
 }
 ```
 
+Vue.js  configuration
+
+```json
+{
+  "babel": {
+    "extends": "@shelf/babel-config/frontend-vue"
+  }
+}
+```
+
 ## Publish
 
 ```sh
