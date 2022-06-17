@@ -23,7 +23,7 @@ module.exports = {
       '@babel/preset-env',
       {
         targets: {
-          browsers: ['last 4 versions', 'ie >= 11'],
+          browsers: ['last 4 versions'],
         },
         modules: false,
         useBuiltIns: false,
@@ -39,7 +39,7 @@ module.exports = {
           '@babel/preset-env',
           {
             targets: {
-              browsers: ['last 4 versions', 'ie >= 11'],
+              browsers: ['last 4 versions'],
             },
             useBuiltIns: false,
           },

@@ -11,7 +11,7 @@ module.exports = {
     [
       '@babel/preset-env',
       {
-        targets: ['last 4 versions', 'ie >= 11'],
+        targets: ['last 4 versions'],
       },
     ],
     '@babel/preset-typescript',
