@@ -52,16 +52,6 @@ Frontend library (lodash, ts)
 }
 ```
 
-Next.js standard configuration
-
-```json
-{
-  "babel": {
-    "extends": "@shelf/babel-config/frontend-next"
-  }
-}
-```
-
 Vue.js  configuration
 
 ```json
