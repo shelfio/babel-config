@@ -52,7 +52,7 @@
     "husky": "8.0.3",
     "lint-staged": "13.3.0",
     "prettier": "2.8.8",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   },
   "engines": {
     "node": ">=12"
